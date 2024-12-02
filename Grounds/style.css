@@ -1,0 +1,21 @@
+#groundjs {
+    border: groove 5px;
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    left: 350px;
+}
+
+body {
+    background-image: url("Assets/GrassBackground.gif");
+    cursor: none;
+}
+
+img {
+    position: absolute;
+    left: 365px;
+    width: 700px;
+    height: 700px;
+}
