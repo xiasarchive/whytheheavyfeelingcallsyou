@@ -34,8 +34,9 @@ function setup() {
 function draw(){
 
   if (pressenter == true) {
+    background(255);
   image(img1, 0, 0, 700, 700);
-  }
+  } else{
   if (enter == true) {
     pressenter = false;
     background(255);
