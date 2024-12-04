@@ -8,6 +8,8 @@ var xtype = false;
 var pressenter = true;
 var enter = false;
 
+let open = 0;
+
 let img1, img2, img3, img4, img5;
 let movie1, movie2, movie3;
 
@@ -68,11 +70,11 @@ if (ztype == true){
   image(movie3, 0, 0, 700, 700);
   movie3.play();
 }
-if (xtype == true) {
+if (open === 1) {
   movie3.stop();
   (window.open('https://xiasarchive.github.io/whytheheavyfeelingcallsyou/'));
   
-  xtype == false;
+  open = open + 1;
 }
 }
 
@@ -100,6 +102,6 @@ if ((key == 'z') || (key == 'Z')){
 }
 
 if ((key == 'x') || (key == 'X')){
-  xtype= true;
+  open = open + 1;
 }
 }
