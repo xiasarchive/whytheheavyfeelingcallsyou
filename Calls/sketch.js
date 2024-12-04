@@ -8,7 +8,7 @@ var xtype = false;
 var pressenter = true;
 var enter = false;
 
-let open = 0;
+let open = 2;
 
 let img1, img2, img3, img4, img5;
 let movie1, movie2, movie3;
@@ -70,7 +70,7 @@ if (ztype == true){
   image(movie3, 0, 0, 700, 700);
   movie3.play();
 }
-if (open === 1) {
+if (open === 3) {
   
   open = open + 1;
   movie3.stop();
