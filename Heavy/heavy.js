@@ -68,7 +68,7 @@ function draw(){
     else if ((fCount === 8)
         {
             (window.open('https://xiasarchive.github.io/whytheheavyfeelingcallsyou/'));
-            fCount++;
+            fCount = fCount + 1;
         }
 }
 
