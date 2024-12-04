@@ -3,6 +3,8 @@ let fCount = 1;
 //let fIndex = f + fCount;
 let f1, f2, f3, f4, f5, f6, f7;
 
+var newwin = true;
+
 //var bgAudio;
 
 function preload()
@@ -64,9 +66,10 @@ function draw(){
             {
                 image(f7, 0, 0, width, height);    
             }
-    else
+    else if ((fCount === 8) && (newwin == true))
         {
-            (window.open('https://xiasarchive.github.io/whytheheavyfeelingcallsyou/'))
+            (window.open('https://xiasarchive.github.io/whytheheavyfeelingcallsyou/'));
+            newwin = false;
         }
 }
 
