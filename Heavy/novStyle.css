@@ -1,0 +1,41 @@
+html, body{
+    padding:0;
+    margin:0;
+    top:0;
+    bottom:0;
+    
+    
+    }
+    
+    /*
+    
+    #floatimg1 {
+        position:absolute;
+        top:50vh;
+        left:70vw;
+    }
+    
+    #floatimg2 {
+        position:absolute;
+        top:50vh;
+        left:30vw;
+    }
+    
+    #floattxt{
+        position:absolute;
+        top:40vh;
+        left:50vw;
+    
+    }
+    
+    */
+    
+    
+    canvas{
+        /*vw is 1% of device width, vh is height*/
+        /* !important overrides everything else*/
+    width:100vw !important;
+    height:100vh !important;
+
+    }
+    
