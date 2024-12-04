@@ -104,5 +104,7 @@ if ((key == 'z') || (key == 'Z')){
 
 if ((key == 'x') || (key == 'X')){
   open = open + 1;
+  
+  movie3.stop();
 }
 }
