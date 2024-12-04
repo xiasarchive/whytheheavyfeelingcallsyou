@@ -70,7 +70,9 @@ if (ztype == true){
 }
 if (xtype == true) {
   movie3.stop();
-  (window.open('https://xiasarchive.github.io/whytheheavyfeelingcallsyou/'))
+  (window.open('https://xiasarchive.github.io/whytheheavyfeelingcallsyou/'));
+  
+  xtype == false;
 }
 }
 
