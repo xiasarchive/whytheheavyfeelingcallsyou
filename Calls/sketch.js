@@ -71,10 +71,11 @@ if (ztype == true){
   movie3.play();
 }
 if (open === 1) {
+  
+  open = open + 1;
   movie3.stop();
   (window.open('https://xiasarchive.github.io/whytheheavyfeelingcallsyou/'));
   
-  open = open + 1;
 }
 }
 
