@@ -16,7 +16,7 @@ let movie1, movie2, movie3;
 
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(1000, 1000);
   img1 = loadImage("data/image1.jpg");
   img2 = loadImage("data/image2.jpg");
   img3 = loadImage("data/image4.jpg");
@@ -32,7 +32,7 @@ function setup() {
 
 
 function draw(){
-
+background(255);
   if (pressenter == true) {
     background(255);
   image(img1, 0, 0, 700, 700);
