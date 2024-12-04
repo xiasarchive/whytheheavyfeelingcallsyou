@@ -65,7 +65,7 @@ function draw(){
             {
                 image(f7, 0, 0, width, height);    
             }
-    else if ((fCount === 8)
+    else if (fCount === 8)
         {
             (window.open('https://xiasarchive.github.io/whytheheavyfeelingcallsyou/'));
             fCount = fCount + 1;
