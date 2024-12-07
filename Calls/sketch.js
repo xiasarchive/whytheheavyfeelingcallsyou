@@ -16,7 +16,7 @@ let movie1, movie2, movie3;
 
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(700, 700);
   img1 = loadImage("data/image1.jpg");
   img2 = loadImage("data/image2.jpg");
   img3 = loadImage("data/image4.jpg");
