@@ -1,11 +1,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: white;
 }
 canvas {
   display: block;
+}
+video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 
